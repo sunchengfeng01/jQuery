@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box"></div>
+</body>
+<script src="jquery-1.12.4.js"></script>
+<script>
+    /*
+     *jQuery 增删改查；
+     *增： $('<span>ffa<span>') , append(参数)在子元素最后添加，如果是页面的元素就是剪切效果；参数：1.HTML字符串 2.jQuery对象 3.DOM对象
+     *prepend()
+     */
+    var $span = $('<span>ffa<span>')
+    console.log($span);
+
+    console.log($('#box').append($span));
+</script>
+
+</html>
